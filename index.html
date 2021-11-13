@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta charset="UTF-8">
+	<title>Tuấn Nguyên yêu Tuyết Nhi</title>
+	<link rel="stylesheet" type="text/css" href="./css/format.css">
+</head>
+
+<body style="margin:0px">
+	<audio autoplay loop>
+		<source src="music/music.mp3" type="audio/mpeg">
+	</audio>
+	<canvas></canvas>
+	<div id="imgTxt">
+		<span id="Txt"></span> <br />
+		<span id="tmp"></span>
+		<img id="img" src="">
+	</div>
+	<div id="heartTxt">
+		<span id="clickMe">Click!</span>
+		<div id="heart">
+			<button id="button" onclick="play()"></button>
+		</div>
+	</div>
+	<div id="content">
+		<h2 id="together">Anh và em đã ở bên nhau</h2>
+		<div id="timer">
+			<b id="d"></b> ngày
+			<b id="h"></b> giờ
+			<b id="m"></b> phút
+			<b id="s"></b> giây
+		</div>
+	</div>
+
+	<div id="typeDiv">
+		<span id="txt1"></span> <br />
+		<span id="txt2"></span>
+	</div>
+
+	<script>
+		var ok = 0;
+		var flag = 1;
+		var myImage = document.getElementById("img");
+		var myTxt = document.getElementById("Txt");
+		var imageArray = [
+			"images/pic1.jpg",
+			"images/pic2.jpg",
+			"images/pic3.jpg",
+			"images/pic4.jpg",
+			"images/pic5.jpg",
+			"images/pic6.jpg",
+			"images/pic7.jpg",
+			"images/pic8.jpg",
+			"images/pic9.jpg",
+			"images/pic10.jpg",
+			"images/pic11.jpg",
+			"images/pic12.jpg",
+			"images/pic13.jpg",
+			"images/pic14.jpg",
+			"images/pic15.jpg",
+			"images/pic16.jpg",
+		];
+		var imageIndex = 0;
+		var txtArray = [
+			"Baby ơiiiiiii!",
+			"Em có biết rằng...",
+			"Có được em ở trong đời ~(｡･ω･｡)ﾉ♡",
+			"😍 Là niềm hạnh phúc lớn nhất của anh 😍",
+			"o(≧v≦)o Bé yêu của anh tuyệt vời lắm o(≧v≦)o",
+			"💗 Em là môt cô gái cực kỳ xinh đẹp 💗",
+			"😻 Lại rất là tốt tính luôn 😻",
+			"🤩 Còn cực kỳ giỏi giang và chăm chỉ nữa 🤩",
+			"Khi em bước vào cuộc sống của anh",
+			"(♡ v ♡) Tuấn Nguyên tốt lên nhiều lắm (♡ v ♡)",
+			"Anh hi vọng...",
+			"💞 Anh và bé sẽ luôn hạnh phúc bên nhau 💞",
+			"🚀 Sẽ luôn cùng nhau thành công hơn từng ngày 🚀",
+			"💝 Chúng ta sẽ nhiều kỷ niệm cùng nhau nhé 💝",
+			"Vợ bé nhỏ của anh ơi ~ 😚",
+			"💘💘 Tuấn Nguyên yêu Tuyết Nhi nhiều lắm 💕💕"
+		];
+		var len = imageArray.length;
+		var t = 0;
+	</script>
+
+	<script type="text/javascript" src="./js/stars.js"></script>
+	<script type="text/javascript" src="./js/typeWriter.js"></script>
+	<script type="text/javascript" src="./js/date.js"></script>
+	<script type="text/javascript" src="./js/playImg.js"></script>
+</body>
+
+</html>
